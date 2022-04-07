@@ -1,0 +1,36 @@
+.our_initial_portfolio .card-custom{border: 1px solid #afbecb; background: #f9f9f9;}
+.our_initial_portfolio .card-custom .card-body{justify-content: center; padding-left:.5rem; padding-right: .5rem;}
+.our_initial_portfolio .card-custom-digit{color:#0f3557;}
+.our_initial_portfolio .card-custom-title{margin: 15px 0 0; font-size: 16px; text-transform: uppercase;font-family: 'Open Sans'; font-weight: 600;}
+
+.our_key_highlight ul{ padding: 0px; margin:55px 0 0; list-style-type: none; }
+.our_key_highlight ul li{font-size: 14px; color:#282828; line-height: 24px; position: relative;padding-left: 20px;}
+.our_key_highlight ul li:before{position: absolute; content: ''; border-radius: 50%; background-color: rgb(103, 103, 103); width: 7px;
+  height: 7px; left: 0; top:9px;}
+
+.amenities-sec{padding: 80px 0;}
+.amenities-sec h3{font-size: 21px; font-weight: 600; color: #0f3557; margin-bottom:1.75rem;}  
+.amenities-sec .image{position: relative;}
+.amenities-sec .image .play{position:  absolute; left: 50%; top:50%; transform: translate(-50%,-50%); cursor: pointer;}
+.amenities-sec .amenities-images .item img{height: auto;}
+.amenities-sec .amenities-images .owl-nav{margin: 0;}
+.amenities-sec .amenities-images .owl-nav button{background: #fff; width:36px; height: 53px; position: absolute; top:50%;
+ transform: translateY(-50%); margin: 0;}
+.amenities-sec .amenities-images .owl-nav button .white{display: none;} 
+.amenities-sec .amenities-images .owl-nav button:hover{ background: #407ec9; }
+.amenities-sec .amenities-images .owl-nav button:hover .white{display: inline-block;}
+.amenities-sec .amenities-images .owl-nav button:hover .blue{display: none;}
+.amenities-sec .amenities-images .owl-nav button.owl-prev{left: 0; border-radius: 0 10px 10px 0;}
+.amenities-sec .amenities-images .owl-nav button.owl-next{right: 0; border-radius: 10px 0px 0px 10px}
+
+.our-location-sec{background-image:  linear-gradient(to right, #0f3557 50%, #fff 50%);}
+.our-location-sec .no-gutter>.col{padding: 0;}
+.our-location-sec .no-gutter>.col img{width: 100%;}
+.our-location-sec .address-wrap{max-width: 635px; width: 100%; float: right; padding: 0 0 0 15px;}
+.our-location-sec .title-divide{color: #fff;}
+.our-location-sec p{font-size: 18px; color: #fff; margin-bottom:1.5rem; font-weight: 400;}
+.our-location-sec p a{ color: #fff;}
+.item-title{position:absolute;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.50);padding:10px;}
+.item-title span{color:#fff;}
+.fancybox-title-float-wrap{margin-bottom:16px;}
+.fancybox-title-float-wrap .child{border-radius:0;background-color:transparent;}
